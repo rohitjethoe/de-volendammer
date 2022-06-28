@@ -21,6 +21,6 @@ De Woocommerce template voor de Volendammer in Ijmuiden.
 
 ## Frequently Asked Questions
 
-= Does this theme support any plugins? =
+### Does this theme support any plugins? 
 
 De Volendammer includes support for WooCommerce.
