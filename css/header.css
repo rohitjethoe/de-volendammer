@@ -150,7 +150,7 @@
   }
   header .nav .nav-cart a:link, header .nav .nav-cart a:visited {
     color: #fff;
-    font-size: 20px;
+    font-size: 1.6vw;
   }
   header .nav .nav-cart .nav-cart-contents {
     font-family: "Source Sans Pro", sans-serif;
@@ -160,7 +160,7 @@
     background-color: rgba(85, 133, 188, 0.9);
     border-radius: 100%;
     padding: 2px 6px;
-    font-size: 10px;
+    font-size: 1vw;
   }
   header .nav ul.menu {
     list-style-type: none;
@@ -171,7 +171,7 @@
     float: left;
   }
   header .nav ul.menu .menu-item a:link, header .nav ul.menu .menu-item a:visited {
-    font-size: 18px;
+    font-size: 1.6vw;
     color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
     text-decoration: none;
