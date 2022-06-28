@@ -113,15 +113,17 @@ function deVolendammer_load_stylesheets () {
     wp_enqueue_style('deVolendammer_fontSourceSansPro');
     wp_enqueue_style('deVolendammer_fontAwesomeIcons');
 
+	if (is_page()) {
+		if (!is_front_page() && !is_shop() && !is_product_category() && !is_product() && !is_cart() && !is_checkout()) {
+			wp_register_style('deVolendammer_page', get_template_directory_uri() . '/css/page.css', array(), rand(111, 9999), 'all');
+			wp_enqueue_style('deVolendammer_page');
+		}
+	}
+
     if (is_front_page()) {
         wp_register_style('deVolendammer_front_page', get_template_directory_uri() . '/css/front-page.css', array(), rand(111, 9999), 'all');
         wp_enqueue_style('deVolendammer_front_page');
     }
-
-	// if (is_page()) {
-	// 	wp_register_style('deVolendammer_page', get_template_directory_uri() . '/css/page.css', array(), rand(111, 9999), 'all');
-	// 	wp_enqueue_style('deVolendammer_page');
-	// }
 
 	if (is_shop()) {
 		wp_register_style('deVolendammer_shop', get_template_directory_uri() . '/css/shop.css', array(), rand(111, 9999), 'all');
@@ -141,6 +143,11 @@ function deVolendammer_load_stylesheets () {
 	if (is_cart()) {
 		wp_register_style('deVolendammer_cart', get_template_directory_uri() . '/css/cart.css', array(), rand(111, 9999), 'all');
 		wp_enqueue_style('deVolendammer_cart');
+	}
+
+	if (is_checkout()) {
+		wp_register_style('deVolendammer_checkout', get_template_directory_uri() . '/css/checkout.css', array(), rand(111, 9999), 'all');
+		wp_enqueue_style('deVolendammer_checkout');
 	}
 }
 
