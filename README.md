@@ -11,7 +11,7 @@ A starter theme called De Volendammer.
 
 ## Description 
 
-De Woocommerce template voor de Volendammer in Ijmuiden. 
+De Wordpress template voor de Volendammer in Ijmuiden. 
 
 ## Installation
 
