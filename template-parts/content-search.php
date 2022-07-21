@@ -1,9 +1,5 @@
 <?php
 /**
- * Template part for displaying results in search pages
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
  * @package De_Volendammer
  */
 
@@ -19,17 +15,17 @@
 			de_volendammer_posted_on();
 			de_volendammer_posted_by();
 			?>
-		</div><!-- .entry-meta -->
+		</div>
 		<?php endif; ?>
-	</header><!-- .entry-header -->
+	</header>
 
 	<?php de_volendammer_post_thumbnail(); ?>
 
 	<div class="entry-summary">
 		<?php the_excerpt(); ?>
-	</div><!-- .entry-summary -->
+	</div>
 
 	<footer class="entry-footer">
 		<?php de_volendammer_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-<?php the_ID(); ?> -->
+	</footer>
+</article><?php the_ID(); ?> 

@@ -1,9 +1,5 @@
 <?php
 /**
- * Template part for displaying posts
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
  * @package De_Volendammer
  */
 
@@ -25,9 +21,9 @@
 				de_volendammer_posted_on();
 				de_volendammer_posted_by();
 				?>
-			</div><!-- .entry-meta -->
+			</div>
 		<?php endif; ?>
-	</div><!-- .entry-header -->
+	</div>
 
 	<?php de_volendammer_post_thumbnail(); ?>
 
@@ -36,7 +32,6 @@
 		the_content(
 			sprintf(
 				wp_kses(
-					/* translators: %s: Name of current post. Only visible to screen readers */
 					__( 'Continue reading<span class="screen-reader-text"> "%s"</span>', 'de-volendammer' ),
 					array(
 						'span' => array(
@@ -55,9 +50,9 @@
 			)
 		);
 		?>
-	</div><!-- .entry-content -->
+	</div>
 
 	<div class="entry-footer">
 		<?php de_volendammer_entry_footer(); ?>
-	</div><!-- .entry-footer -->
-</div><!-- #post-<?php the_ID(); ?> -->
+	</div>
+</div><?php the_ID(); ?>
