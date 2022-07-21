@@ -43,6 +43,9 @@
   main .page .entry-content .woocommerce form.checkout #customer_details .col-1 .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper {
     margin-top: 2%;
   }
+  main .page .entry-content .woocommerce form.checkout #customer_details .col-1 .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper #billing_country_field .woocommerce-input-wrapper strong {
+    color: #fff;
+  }
   main .page .entry-content .woocommerce form.checkout #customer_details .col-1 .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper .form-row {
     margin-top: 8px;
   }
@@ -128,7 +131,7 @@
     color: #fff;
   }
   main .page .entry-content .woocommerce form.checkout #order_review #payment .place-order #place_order {
-    background: linear-gradient(170.06deg, #5585BC -178.5%, #FFFFFF 404.4%);
+    background: #383838;
     color: #fff;
     padding: 15px 20px;
     border: none;
@@ -168,7 +171,7 @@
     color: #dbdbdb;
   }
   main .page .entry-content .woocommerce form.checkout .woocommerce-NoticeGroup {
-    margin-top: 6%;
+    margin-top: 2%;
   }
   main .page .entry-content .woocommerce form.checkout .woocommerce-NoticeGroup ul {
     list-style-type: none;
@@ -187,6 +190,9 @@
   }
   main .page .entry-content .woocommerce form.checkout #customer_details .col-1 .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper {
     margin-top: 1%;
+  }
+  main .page .entry-content .woocommerce form.checkout #customer_details .col-1 .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper #billing_country_field .woocommerce-input-wrapper strong {
+    color: #fff;
   }
   main .page .entry-content .woocommerce form.checkout #customer_details .col-1 .woocommerce-billing-fields .woocommerce-billing-fields__field-wrapper .form-row {
     margin-top: 8px;
@@ -275,10 +281,13 @@
     color: #fff;
   }
   main .page .entry-content .woocommerce form.checkout #order_review #payment .place-order #place_order {
-    background: linear-gradient(170.06deg, #5585BC -178.5%, #FFFFFF 404.4%);
+    background: #383838;
     color: #fff;
-    padding: 15px 20px;
+    padding: 1vw 2.5vw;
     border: none;
+    font-size: 1vw;
+    text-transform: uppercase;
+    font-weight: 500;
     margin: 4% 0px;
     -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
             box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
