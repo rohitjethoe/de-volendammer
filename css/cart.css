@@ -94,6 +94,9 @@
     font-weight: bold;
     text-decoration: none;
   }
+  main .entry-content .woocommerce .woocommerce-cart-form table.shop_table .cart_item td.product-quantity .quantity input {
+    width: 50px;
+  }
   main .entry-content .woocommerce .woocommerce-cart-form table.shop_table .cart_item td.product-thumbnail img {
     width: 50px;
     height: 50px;
@@ -148,12 +151,13 @@
   }
   main .entry-content {
     font-family: "Source Sans Pro", sans-serif;
+    width: 50%;
     margin: 0px 6%;
     padding: 4%;
     background-color: rgba(255, 255, 255, 0.9);
   }
   main .entry-content .entry-content-cart-header {
-    font-size: 3.2vw;
+    font-size: 2.8vw;
     padding: 6% 0px;
     border-bottom: solid 1px #cdcdcd;
   }
@@ -176,11 +180,11 @@
     list-style: none;
   }
   main .entry-content .woocommerce .woocommerce-cart-form .actions {
-    font-size: 2vw;
+    font-size: 1.8vw;
   }
   main .entry-content .woocommerce .woocommerce-cart-form .actions .button {
     margin-top: 5px;
-    font-size: 2vw;
+    font-size: 1.8vw;
   }
   main .entry-content .woocommerce .woocommerce-cart-form .actions .coupon {
     display: -webkit-box;
@@ -191,7 +195,7 @@
     margin: 10px 0px;
   }
   main .entry-content .woocommerce .woocommerce-cart-form .actions .coupon label, main .entry-content .woocommerce .woocommerce-cart-form .actions .coupon .input-text, main .entry-content .woocommerce .woocommerce-cart-form .actions .coupon .button {
-    font-size: 2vw;
+    font-size: 1.8vw;
     margin-top: 10px;
     margin-right: 10px;
   }
@@ -209,7 +213,7 @@
         -ms-flex-align: center;
             align-items: center;
     margin: 1vw 0px;
-    font-size: 2vw;
+    font-size: 1.8vw;
   }
   main .entry-content .woocommerce .woocommerce-cart-form table.shop_table .cart_item td {
     padding-left: 2vw;
@@ -225,14 +229,14 @@
     text-decoration: none;
   }
   main .entry-content .woocommerce .woocommerce-cart-form table.shop_table .cart_item td.product-thumbnail img {
-    width: 10vw;
-    height: 10vw;
+    width: 8vw;
+    height: 8vw;
   }
   main .entry-content .woocommerce .cart-collaterals {
     margin-top: 6vw;
     padding-top: 4vw;
     border-top: solid 1px #cdcdcd;
-    font-size: 2vw;
+    font-size: 1.8vw;
   }
   main .entry-content .woocommerce .cart-collaterals .cart_totals h2 {
     display: none;
