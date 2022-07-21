@@ -21,8 +21,8 @@
             <div class="logo">
                 <a href="<?php echo get_site_url(); ?>">
                     <img class="logo-image" src="<?php echo get_template_directory_uri() . '/images/logo.png'; ?>" alt="De Volendammer">
-                
-                <a href="<?php echo get_bloginfo('home_url'); ?>">
+                </a>
+                <a href="<?php echo get_site_url(); ?>">
                     <img class="logo-image-colored" src="<?php echo get_template_directory_uri() . '/images/logo-colored.png'; ?>" style="display: none;" alt="De Volendammer">
                 </a>
             </div>
