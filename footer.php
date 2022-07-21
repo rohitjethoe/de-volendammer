@@ -56,12 +56,27 @@
         </div>
         <div class="copyright">
             &copy; <?php echo date('Y') ?> De Vishandel Molenaar
-            <?php if (is_shop()) {
-                echo 'hey'; }?>
         </div>
     </footer>
         
-    <style>          
+    <style>
+        <?php
+            if (is_front_page()) {
+                $image = get_template_directory_uri() . '/images/background-image.png';
+                $mobile_image = get_template_directory_uri() . '/images/mobile-background.png';
+
+                echo "
+                @media only screen and (min-width: 775px) {
+                    main { 
+                        background: url('$image') no-repeat center center fixed; 
+                        -webkit-background-size: cover;
+                        -moz-background-size: cover;
+                        -o-background-size: cover;
+                        background-size: cover;
+                    }
+                }";
+            } 
+        ?>
     </style>
 <?php wp_footer(); ?>
 
