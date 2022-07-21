@@ -5,12 +5,15 @@
     background: linear-gradient(180deg, #5585BC 0%, rgba(85, 133, 188, 0) 163.73%);
   }
   main .entry-header {
-    padding-top: 4%;
+    padding-top: 8%;
     margin-left: 6%;
     margin-bottom: 2%;
   }
   main .entry-header .entry-title {
     color: #fff;
+  }
+  main .entry-content {
+    padding-bottom: 8%;
   }
   main .entry-content .woocommerce {
     margin-left: 6%;
@@ -73,6 +76,7 @@
   }
   main .entry-content .woocommerce .single-product .product .woocommerce-tabs {
     margin: 2% 0px;
+    margin-bottom: 0%;
   }
   main .entry-content .woocommerce .single-product .product .woocommerce-tabs .tabs {
     display: none;
@@ -152,6 +156,9 @@
   main .entry-header .entry-title {
     color: #fff;
   }
+  main .entry-content {
+    padding-bottom: 6%;
+  }
   main .entry-content .woocommerce {
     margin-left: 6%;
   }
@@ -213,6 +220,7 @@
   }
   main .entry-content .woocommerce .single-product .product .woocommerce-tabs {
     margin: 2% 0px;
+    margin-bottom: 0%;
   }
   main .entry-content .woocommerce .single-product .product .woocommerce-tabs .tabs {
     display: none;
@@ -295,6 +303,9 @@
 }
 
 @media only screen and (max-width: 500px) {
+  main .entry-content {
+    padding-bottom: 8%;
+  }
   main .entry-content .woocommerce .single-product .product .related {
     color: #fff;
   }
@@ -356,12 +367,15 @@
     background: linear-gradient(180deg, #5585BC 0%, rgba(85, 133, 188, 0) 163.73%);
   }
   main .entry-header {
-    padding-top: 4%;
+    padding-top: 8%;
     margin-left: 6%;
     margin-bottom: 2%;
   }
   main .entry-header .entry-title {
     color: #fff;
+  }
+  main .entry-content {
+    padding-bottom: 8%;
   }
   main .entry-content .woocommerce {
     margin-left: 6%;
@@ -424,6 +438,7 @@
   }
   main .entry-content .woocommerce .single-product .product .woocommerce-tabs {
     margin: 4% 0px;
+    margin-bottom: 0%;
   }
   main .entry-content .woocommerce .single-product .product .woocommerce-tabs .tabs {
     display: none;
