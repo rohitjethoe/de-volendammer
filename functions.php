@@ -149,6 +149,14 @@ function deVolendammer_load_stylesheets () {
 		wp_register_style('deVolendammer_checkout', get_template_directory_uri() . '/css/checkout.css', array(), rand(111, 9999), 'all');
 		wp_enqueue_style('deVolendammer_checkout');
 	}
+
+	if (is_404()) {
+		wp_register_style('deVolendammer_404', get_template_directory_uri() . '/css/404.css', array(), rand(111, 9999), 'all');
+		wp_enqueue_style('deVolendammer_404');
+	}
+
+	wp_register_style('deVolendammer_default', get_template_directory_uri() . '/css/default.css', array(), rand(111, 9999), 'all');
+	wp_enqueue_style('deVolendammer_default');
 }
 
 add_action('wp_enqueue_scripts', 'deVolendammer_load_stylesheets');
