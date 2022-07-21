@@ -11,6 +11,21 @@
 
 <div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="entry-header">
+		<?php 
+			if (is_shop()) {
+				$image = get_template_directory_uri() . "/images/shop-background.png";
+				$video = get_template_directory_uri() . "/images/video.mp4";
+
+				echo "
+				<div class='background-video'>
+					<img src='$image' />
+					<video autoplay muted>
+						<source src='$video' type='video/mp4'>
+					</video>
+				</div>
+				";
+			}
+		?>
 		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
 	</div><!-- .entry-header -->
 
