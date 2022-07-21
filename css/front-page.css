@@ -2,6 +2,14 @@
   main .entry-header {
     padding-bottom: 15vh;
   }
+  main .entry-header .entry-header-background {
+    overflow: hidden;
+    display: fixed;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+  }
   main .entry-header .entry-header-title {
     margin-top: 10vh;
     font-family: "Grenze", serif;
@@ -223,6 +231,12 @@
   }
 }
 
+@media only screen and (min-width: 775px) {
+  main .entry-header .entry-header-background {
+    display: none;
+  }
+}
+
 @media only screen and (min-width: 775px) and (max-width: 1000px) {
   main .entry-content .entry-content-categories {
     overflow: hidden;
@@ -376,11 +390,11 @@
   }
   main .entry-content .entry-content-categories .category-slider-button-left {
     left: 0;
-    margin-left: 2vw;
+    margin-left: 3vw;
   }
   main .entry-content .entry-content-categories .category-slider-button-right {
     right: 0;
-    margin-right: 2vw;
+    margin-right: 3vw;
   }
   main .entry-content .entry-content-categories .categories {
     display: -webkit-box;

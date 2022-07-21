@@ -1,9 +1,40 @@
+@media only screen and (max-width: 425px) {
+  main .page .entry-header .background-video img {
+    display: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    width: 100vw;
+  }
+  main .page .entry-header .background-video video {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 425px) {
+  main .page .entry-header .background-video img {
+    display: none;
+  }
+}
+
 @media only screen and (max-width: 775px) {
+  main {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
   main .page .entry-header {
     font-family: "Grenze", serif;
     font-weight: 300;
     text-align: center;
     padding: 60px 0px;
+  }
+  main .page .entry-header .background-video video {
+    display: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    width: 100vw;
   }
   main .page .entry-header h1 {
     color: #fff;
@@ -50,6 +81,14 @@
     font-weight: 300;
     text-align: center;
     padding: 60px 0px;
+  }
+  main .page .entry-header .background-video video {
+    display: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    width: 100vw;
   }
   main .page .entry-header h1 {
     color: #fff;

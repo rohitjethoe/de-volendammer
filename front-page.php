@@ -1,6 +1,7 @@
 <?php get_header(); ?>
     <main id="primary" class="site-main">
         <div class="entry-header">
+            <img class="entry-header-background" src="<?php echo get_template_directory_uri() . '/images/mobile-background.png' ?>" alt="">
             <div class="entry-header-title">
                 <p>
                     De Vishandel Molenaar, <br>

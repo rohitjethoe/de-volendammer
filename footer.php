@@ -61,54 +61,7 @@
         </div>
     </footer>
         
-    <style>
-        <?php
-            if (is_front_page()) {
-                $image = get_template_directory_uri() . '/images/background-image.png';
-                $mobile_image = get_template_directory_uri() . '/images/mobile-background.png';
-
-                echo "
-                main { 
-                    background: url('$image') no-repeat center center fixed; 
-                    -webkit-background-size: cover;
-                    -moz-background-size: cover;
-                    -o-background-size: cover;
-                    background-size: cover;
-                }
-                
-                @media only screen and (max-width: 775px) {
-                    main {
-                        background: url('$mobile_image') no repeat center center fixed;
-                        background-position: calc(52.5%);
-                   }
-                }
-                ";
-
-            } elseif (is_shop()) {
-                $image = get_template_directory_uri() . '/images/winkel.png';
-
-                echo "
-                main { 
-                    background: url('$image') no-repeat center center fixed; 
-                    -webkit-background-size: cover;
-                    -moz-background-size: cover;
-                    -o-background-size: cover;
-                    background-size: cover;
-                }
-                
-                // #background-video {
-                   // height: 100vh;
-                   // width: 100vw;
-                   // object-fit: cover;
-                   // position: fixed;
-                   // left: 0;
-                   // right: 0;
-                   // top: 0;
-                   // bottom: 0;
-                   // z-index: -1;
-                // }";
-            }
-        ?>
+    <style>          
     </style>
 <?php wp_footer(); ?>
 
