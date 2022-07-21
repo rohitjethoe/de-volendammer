@@ -16,8 +16,10 @@ get_header();
 					<div class="error-content">
 						404 - Pagina niet gevonden.
 					</div>
+					<div class="error-rectangle"></div>
 					<div class="error-return">
-						Wil je terug naar de home pagina?
+						Wil je terug naar de home pagina? <br> <br>
+						<a href="<?php echo get_site_url(); ?>">Terug naar home</a>
 					</div>
 				</div>
 			</div>
