@@ -155,6 +155,11 @@ function deVolendammer_load_stylesheets () {
 		wp_enqueue_style('deVolendammer_404');
 	}
 
+	if (!empty( is_wc_endpoint_url('order-received'))) {
+		wp_register_style('deVolendammer_order', get_template_directory_uri() . '/css/order.css', array(), rand(111, 9999), 'all');
+		wp_enqueue_style('deVolendammer_order');
+	}
+
 	wp_register_style('deVolendammer_default', get_template_directory_uri() . '/css/default.css', array(), rand(111, 9999), 'all');
 	wp_enqueue_style('deVolendammer_default');
 }
