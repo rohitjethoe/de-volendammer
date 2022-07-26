@@ -65,4 +65,4 @@
 			?>
 		</div>
 	<?php endif; ?>
-</div><?php the_ID(); ?>
+</div>

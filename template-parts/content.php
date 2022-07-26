@@ -55,4 +55,4 @@
 	<div class="entry-footer">
 		<?php de_volendammer_entry_footer(); ?>
 	</div>
-</div><?php the_ID(); ?>
+</div>
