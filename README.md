@@ -11,7 +11,7 @@ A starter theme called De Volendammer.
 
 ## Description 
 
-De Wordpress template voor de vishandel Volendammer in Ijmuiden. 
+De Wordpress template voor vishandel De Volendammer in Ijmuiden. 
 
 ## Installation
 
