@@ -24,3 +24,6 @@ De Wordpress template voor vishandel De Volendammer in Ijmuiden.
 ### Does this theme support any plugins? 
 
 De Volendammer includes support for WooCommerce.
+
+Other plugins:
+1. Order Delivery Date
